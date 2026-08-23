@@ -1,0 +1,50 @@
+{
+  "name": "bb-plugin-thread-provider-icons",
+  "version": "0.1.0",
+  "description": "Draws each thread's provider logo before its title in the BB sidebar, so you can see at a glance which agent owns which thread.",
+  "license": "MIT",
+  "author": "Braedon Saunders",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/braedonsaunders/bb-plugin-thread-provider-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/braedonsaunders/bb-plugin-thread-provider-icons/issues"
+  },
+  "homepage": "https://github.com/braedonsaunders/bb-plugin-thread-provider-icons#readme",
+  "keywords": [
+    "bb",
+    "bb-plugin",
+    "sidebar",
+    "icons",
+    "providers"
+  ],
+  "files": [
+    "app.tsx",
+    "server.ts",
+    "lib",
+    "assets",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "bb": ">=0.39",
+    "bbPluginSdk": ">=0.4.8"
+  },
+  "bb": {
+    "name": "Thread Provider Icons",
+    "description": "Draws each thread's provider logo before its title in the BB sidebar, so you can see at a glance which agent owns which thread.",
+    "branding": {
+      "icon": "./assets/icon.svg"
+    },
+    "server": "./server.ts",
+    "app": "./app.tsx"
+  },
+  "devDependencies": {
+    "@get-bb/plugin-sdk": "0.4.8",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}
