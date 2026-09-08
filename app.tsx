@@ -2,7 +2,7 @@ import { useEffect, useRef, type ComponentType } from "react";
 import {
   definePluginApp,
   experimental_useSidebarThreads,
-} from "@get-bb/plugin-sdk/app";
+} from "@riftlabs/plugin-sdk/app";
 import { providerLabel, providerMarkSpec, providerMarkSvg } from "./lib/provider-marks";
 
 const ICON_SIZE = 14;

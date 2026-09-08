@@ -80,3 +80,8 @@ bb plugin dev
 ## Licence
 
 MIT © Braedon Saunders
+
+## Fork provenance
+
+Rift Labs fork: https://github.com/euforicio/rift-plugin-thread-provider-icons
+Upstream: https://github.com/braedonsaunders/bb-plugin-thread-provider-icons
